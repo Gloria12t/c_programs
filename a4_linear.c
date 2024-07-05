@@ -1,5 +1,4 @@
-/*Name:Gloria Thomas
-Unumber:U33016687
+/*
 The program uses linear search to search for an element in the array and displays the position of that element in the array
 User is prompted to enter the number of input integers
 Number is checked for validity. Program terminates if the user enters invalid number or 0.
