@@ -1,5 +1,4 @@
-/*Name: Gloria Thomas
-Unumber:U33016687
+/*
 
 This program intends to find all possible ineteger values for the pythogorean triples for a maximum hypotenuse length 
 The program contains only a main funtion 
