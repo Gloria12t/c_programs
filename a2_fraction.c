@@ -1,5 +1,4 @@
-/*Name: Gloria Thomas
-Unumber: U33016687
+/*
 The program intends to reduce the given fraction to its lowest terms 
 While loop checks for valid input and prompts the user to enter valid input
 The program finds the greates common divisor for the two numbers and then reduces the fraction to its lowest terms
