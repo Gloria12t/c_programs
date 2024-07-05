@@ -1,5 +1,4 @@
-//Name:Gloria Thomas
-//Unumber:U33016687
+
 //The program asks for the user to input a message and then encrypts it using caesar cipher technique
 //the program asks for number of shifts
 //The program can decrypt the message if the user enters 26 minus the original key
