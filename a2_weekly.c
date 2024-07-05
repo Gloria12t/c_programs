@@ -1,5 +1,4 @@
-/*Name:Gloria Thomas
-Unumber:U33016687
+/*
 
 This program intends to calculate the total pay based ont he pay rate and the number of hours worked 
 The program has a main funtion and a while loop
