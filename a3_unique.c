@@ -1,5 +1,4 @@
-//Name:Gloria Thomas
-//Unumber:U33016687
+
 //The program gets the user input for a number between 0 to 200.
 //the program asks for the number of inputs 
 //if the number is negative the program prints invalid number and prompts the user to enter a different input 
