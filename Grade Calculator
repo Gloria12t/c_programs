@@ -1,0 +1,44 @@
+/*
+Program to calculate total grade based on the grade inputs given by the user for
+2 quizzes(10%), 3 homeworks(20%), midterm exam (30%) and a final exam (40%)
+program has a main function to get and store user inputs 
+calculates final grade based on the grade weightage for each grade
+*/
+#include <stdio.h>
+
+int main()
+{
+   //initialize variables, float type is used as grades can be decimal numbers 
+   float q1, q2, quiz_grade, h1, h2, h3, hw_grade, m1, midterm_grade, f1, final_exam_grade, Total_Grade;
+   
+   printf("This is the total grade calculator program.\n");
+   
+   //get and store user inputs for each grade 
+   printf("Enter Quiz1 grade:");
+   scanf("%f,",&q1);
+   printf("Enter Quiz2 grade:");
+   scanf("%f",&q2);
+   printf("Enter Homework1 grade:");
+   scanf("%f",&h1);
+   printf("Enter Homework2 grade:");
+   scanf("%f",&h2);
+   printf("Enter Homework3 grade:");
+   scanf("%f",&h3);
+   printf("Enter Midterm exam grade:");
+   scanf("%f",&m1);
+   printf("Enter Final exam grade:");
+   scanf("%f",&f1);
+   
+   //calculate final grade based on weightage 
+   //average of the two quizzes is taken and multiplied by the grade weightage for quizzes
+   quiz_grade=((q1+q2)/2)*(0.10);
+   hw_grade=((h1+h2+h3)/3)*(0.20);
+   midterm_grade=(m1)*(0.30);
+   final_exam_grade=(f1)*(0.40);
+   Total_Grade=quiz_grade+hw_grade+midterm_grade+final_exam_grade;
+   
+   //print statement to print in the total grade in float data type
+   printf("Total grade:%.2f\n",Total_Grade);
+   
+   return 0;
+}
